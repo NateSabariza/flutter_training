@@ -75,7 +75,7 @@ class _UserScreenState extends State<UserScreen> {
                             Stack(
                               children: [
                                 SizedBox(
-                                  height: isLandscape ? 350 : 175,
+                                  height: isLandscape ? 250 : 140,
                                   child: Image.network(
                                     user.avatar,
                                     fit: BoxFit.cover,
